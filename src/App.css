@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #14151728; /* Dimmed background */
+  color: rgb(43, 30, 30); /* Highlighted text */
+}
+
+.App {
+  text-align: center;
+  padding-top: 50px; /* Adjust padding instead of margin */
+}
+
+.file-upload {
+  border: 2px dashed #000;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for file upload */
+}
+
+#output {
+  margin-top: 20px;
+}
